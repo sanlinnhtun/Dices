@@ -20,12 +20,12 @@ const imageKey2="/images/dice"+ randomNumber2 + ".png";
 const secondImageTag= document.getElementsByClassName("img2")[0];
 secondImageTag.src=imageKey2
 
-//click me
+// click me
 function showAlert() {
-    alert(Date.now().toString)
+    location.reload()
 }
 
-const refreshTag= document.getElementById("Refresh");
+const refreshTag= document.getElementById("refresh");
 
 refreshTag.addEventListener("click",showAlert);
 
